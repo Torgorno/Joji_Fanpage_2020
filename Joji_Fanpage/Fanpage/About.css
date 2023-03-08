@@ -1,0 +1,72 @@
+body {
+  background-color:	#DC143C ;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+  display: inline;
+  
+}
+
+li a:hover {
+  background-color: black;
+  width: 75%;
+  height: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.container {
+display: flex;
+width: 20%;
+margin: auto;
+align-content: center;
+}
+
+nav {
+flex: auto;
+float: none;
+top: 50%;
+left: 50%;
+}
+
+.presentation, .lorem-ipsum {
+  padding: 14px 16px;
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin: auto;
+  
+}
+
+
+.cover {
+text-align: center;
+margin: 0 auto;
+margin-top: 40px;
+display: block;
+}
+
+.introduction {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+}

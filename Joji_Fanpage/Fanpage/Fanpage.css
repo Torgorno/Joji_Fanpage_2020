@@ -1,0 +1,81 @@
+body {
+    background-color:	#DC143C ;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    display: inline;
+    
+  }
+
+  li a:hover {
+    background-color: black;
+    width: 75%;
+    height: auto;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.container {
+  display: flex;
+  width: 20%;
+  margin: auto;
+  align-content: center;
+}
+
+nav {
+flex: auto;
+float: none;
+top: 50%;
+left: 50%;
+
+}
+
+.presentation {
+  display: flex;
+}
+
+.introduction {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+.cover img, iframe {
+  height: 70vh;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.filth, .song {
+ text-align: center;
+ font-family: 'Fira Sans';
+  
+}
+
+iframe {
+  align-content: center;
+    margin-top:100px; /* Ha mellanrum på översta dellen av bilden*/
+    margin-bottom:20px; /* Ha mellanrum på nedersta dellen av bilden*/
+
+}
